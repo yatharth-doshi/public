@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Matrix Invoice</title>
+    <link rel="stylesheet" href="style.css" media="all" />
+</head>
+
+<body>
+    <header class="clearfix">
+        <div id="logo">
+            <img src="static/Media.png" alt="Logo">
+        </div>
+        <h1>INVOICE</h1>
+        <div id="project">
+            <div>
+                <p>NAME: </p>
+                <span id="user-name">{{users_name}}</span>
+            </div>
+        </div>
+        <div id="project2">
+            <div>
+                <p>FROM DATE: </p><span id="from-date">{{from_date}}</span>
+            </div>
+            <div>
+                <p>TO DATE: </p><span id="to-date">{{to_date}}</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="invoice-content">{{invoice_content}}</div>
+    </main>
+</body>
+
+</html>
